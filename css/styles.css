@@ -104,7 +104,6 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .navigation-menu-point {
@@ -151,7 +150,6 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .top-list:hover,
@@ -223,10 +221,9 @@
         min-width: 216px;
         margin: auto;
         margin-top: 30px;
-        transition-property: background-color, box-shaow, color;
+        transition-property: background-color, box-shadow, color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .hero-button:hover,
@@ -327,13 +324,13 @@
         width: 100%;
         height: 70px;
         overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: rgba(47, 48, 58, 0.8);
-        padding-top: 27px;
-        padding-bottom: 27px;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
-        text-align: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -404,7 +401,6 @@
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .social-list-icon {
@@ -451,7 +447,6 @@
         transition-property: borer;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .client-list-link:hover,
@@ -500,10 +495,9 @@
         padding-bottom: 6px;
         padding-left: 22px;
         padding-right: 22px;
-        transition-property: background-color, box-shaow, color;
+        transition-property: background-color, box-shadow, color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .primary-btn:hover,
@@ -542,10 +536,9 @@
         width: 370px;
         display: block;
         text-decoration: none;
-        transition-property: background-color, box-shaow;
+        transition-property: background-color, box-shadow;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .examples-link:hover,
@@ -594,7 +587,6 @@
         transition-property: transform;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .examples-link.wrapper:hover .overlay,
@@ -641,7 +633,6 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .bottom-street:hover,
@@ -655,7 +646,6 @@
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .list-bottom:hover,
@@ -703,7 +693,6 @@
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .social-list-footer-icon {
@@ -726,7 +715,6 @@
         background: rgba(0, 0, 0, 0.2);
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-delay: 0ms;
     }
     
     .backdrop.is-hidden {
